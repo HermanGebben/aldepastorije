@@ -8,8 +8,8 @@
   --beige-donker: #e8e0d0;
   --bruin: #8b6914;
   --wit: #fdfbf7;
-  --tekst: #2c2c2c;
-  --tekst-zacht: #5a5a5a;
+  --tekst: #1a1a1a;
+  --tekst-zacht: #3d3d3d;
   --accent: #c8552a;
 }
 
@@ -59,7 +59,7 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
 
 .nav-logo span:last-child {
   font-size: 0.7rem;
-  color: var(--tekst-zacht);
+  color: #2a2a2a;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
 
 .nav-links a {
   text-decoration: none;
-  color: var(--tekst-zacht);
+  color: #2a2a2a;
   font-size: 0.88rem;
   letter-spacing: 0.04em;
   padding: 0.4rem 0.75rem;
@@ -135,7 +135,7 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to bottom, rgba(20, 45, 15, 0.45) 0%, rgba(20, 45, 15, 0.2) 50%, rgba(20, 45, 15, 0.55) 100%),
+    linear-gradient(to bottom, rgba(20, 45, 15, 0.55) 0%, rgba(20, 45, 15, 0.35) 50%, rgba(20, 45, 15, 0.65) 100%),
     url('fotos/IMG_7157.jpg') center/cover no-repeat;
 }
 
@@ -261,7 +261,7 @@ section { padding: 5rem 2rem; }
 .sectie-breed { max-width: 1100px; margin: 0 auto; }
 
 .sectie-label {
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--groen);
@@ -571,7 +571,7 @@ p:last-child { margin-bottom: 0; }
   color: white;
 }
 
-.paginatitel p {
+.paginatitel p { font-weight: 400;
   color: rgba(255,255,255,0.75);
   margin-top: 0.5rem;
   font-size: 1rem;
@@ -598,7 +598,7 @@ footer {
 .footer-sub { font-size: 0.78rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.4); }
 .footer-tekst { font-size: 0.88rem; margin-top: 1rem; line-height: 1.6; }
 
-.footer-kop { font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 1rem; }
+.footer-kop { font-size: 0.78rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 1rem; }
 
 .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
 .footer-links a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.88rem; transition: color 0.2s; }
@@ -642,3 +642,48 @@ footer {
 
   section { padding: 3.5rem 1.5rem; }
 }
+
+/* ── LOGO NAVIGATIE ── */
+.nav-logo-img {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.nav-logo-img img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+/* ── CONTRASTVERBETERINGEN ── */
+
+/* Kaart-tekst donkerder */
+.kaart p { color: #2a2a2a; }
+.kaart h3 { color: #1a3a16; }
+
+/* Sterren-kaart tekst donkerder */
+.ster-kaart p { color: #1a1a1a; }
+.ster-naam { color: #2a2a2a; }
+
+/* Footer tekst beter leesbaar */
+footer { color: rgba(255,255,255,0.88); }
+.footer-tekst { color: rgba(255,255,255,0.82); }
+.footer-links a { color: rgba(255,255,255,0.82); }
+.footer-bodem { color: rgba(255,255,255,0.65); }
+
+/* Omgeving linklijst donkerder */
+.link-lijst a { color: #1e4a18; }
+
+/* Paginatitel ondertitel */
+.paginatitel p { color: rgba(255,255,255,0.92); }
+
+/* Sectielabel op beige achtergrond beter leesbaar */
+.bg-beige .sectie-label { color: #1e4a18; font-weight: 700; }
+
+/* Quote blok tekst */
+.quote-blok p { color: #1a3a16; font-weight: 400; }
+
+/* Prijs-banner subtekst */
+.prijs-banner p { color: rgba(255,255,255,0.88); }
