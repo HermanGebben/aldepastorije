@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Achtergrond -->
+  <rect width="32" height="32" rx="6" fill="#1a3a16"/>
+  <!-- Boom midden -->
+  <polygon points="16,4 23,16 9,16" fill="#7dc45a"/>
+  <polygon points="16,9 24,22 8,22" fill="#4a7c3f"/>
+  <polygon points="16,14 23,26 9,26" fill="#2d5a27"/>
+  <!-- Stam -->
+  <rect x="14" y="26" width="4" height="4" rx="1" fill="#1a3a16"/>
+</svg>
